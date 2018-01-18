@@ -1,0 +1,3 @@
+#!/bin/bash -i
+
+docker run -it -v $PWD:/home/heroku/app aaralis/heroku-toolbelt bash -c "heroku $*"
